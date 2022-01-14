@@ -1,0 +1,18 @@
+{
+  "name": "typescript-blank-template",
+  "version": "1.0.0",
+  "main": "main.ts",
+  "scripts": {
+    "start": "ts-node main.ts",
+    "dev": "nodemon -q --watch .env --watch src/* --watch main.ts --exec \"ts-node main.ts\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "dotenv": "^11.0.0",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.4.0",
+    "tsconfig-paths": "^3.12.0",
+    "typescript": "^4.5.4"
+  }
+}
